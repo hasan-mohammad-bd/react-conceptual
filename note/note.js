@@ -24,9 +24,22 @@ to see readme.md preview: ctrl + shift + p > markdown open preview.
 47-2 What is JSX, React Component, babel transpiler
 //=========================================================
 JSX:
-search in google: jsx in depth.*****
+search in google: jsx in depth, what are advantage of jsx*****
 
 new component must be written in capital letter.
+
+47-3 Components and how props works, unidirectional data flow
+============================================================
+
+how component works
+====================
+it is building block of react app.
+
+component is a part of a website.
+
+there is two types of component:
+#class component 
+#function component 
 
 
 */
