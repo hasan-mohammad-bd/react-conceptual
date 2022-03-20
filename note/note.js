@@ -77,7 +77,40 @@ article or video about: why react is superior to the programming world.
 47-7 How react works, Render, virtual dom, diff algorithm, fiber
 ============================================================
 
-#virtual DOM : 
+#virtual DOM and react diff algorithm => learn 
+# react fiber architecture.
+
+47-8 React Class Component, Component lifecycle and rerender
+============================================================
+rcc: react class component (shortCut)
+read: handling event from react website.
+
+component lifecycle: read form google.
+the are 3 stages of component.
+
+1. Mounting 
+when the component DOM enter into the DOM the cycle start from here. there are 4 method as below:
+.constructor()
+.getDerivedStateFromProps()
+.render()
+.componentDidMount()
+
+2. Update
+when the props or state change the component, the component enter into stage. there are 5 method in this stage.
+
+.getDerivedStateFromProps()
+.shouldComponentUpdate()
+.render()
+.getSnapshotBeforeUpdate()
+.componentDidUpdate()
+
+
+3. Unmounting 
+when the component need to remove from the DOM. the component enter into this stage.
+there is a 1 method in this stage.
+.componentWillMount()
+
+
 
 
 
